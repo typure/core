@@ -1,6 +1,4 @@
 packages:
-  - 'packages/*'
-  - 'typure-cli'
-  - 'example'
-  - 'typure-plugins/*'
-  - 'doc'
+  - "packages/*"
+  - "example"
+  - "doc"

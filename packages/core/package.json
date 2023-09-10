@@ -17,7 +17,6 @@
     ]
   },
   "dependencies": {
-    "@typure/cli": "^0.0.1",
     "@typure/compile": "workspace:*",
     "@typure/runtime": "workspace:*",
     "@typure/shared": "workspace:*",
