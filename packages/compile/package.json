@@ -17,6 +17,6 @@
   "dependencies": {
     "@typure/core": "workspace:*",
     "@typure/runtime": "workspace:*",
-    "vite": "^4.3.8"
+    "vite": "^4.5.0"
   }
 }
