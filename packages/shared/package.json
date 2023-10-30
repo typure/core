@@ -9,7 +9,7 @@
   "module": "dist/shared.esm-bundler.js",
   "types": "dist/shared.d.ts",
   "dependencies": {
-    "vite": "^4.3.8"
+    "vite": "^4.5.0"
   },
   "buildOptions": {
     "name": "TypureShared",
