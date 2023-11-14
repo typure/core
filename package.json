@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/wangyewei/Typurejs#readme",
   "dependencies": {
-    "rollup": "^4.3.0",
+    "rollup": "^4.4.1",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
