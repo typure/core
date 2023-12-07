@@ -12,8 +12,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0
       typescript:
-        specifier: ^5.0.4
-        version: 5.2.2
+        specifier: ^5.3.3
+        version: 5.3.3
     devDependencies:
       '@rollup/plugin-alias':
         specifier: ^5.0.1
@@ -41,7 +41,7 @@ importers:
         version: 5.0.5
       rollup-plugin-dts:
         specifier: ^6.1.0
-        version: 6.1.0(rollup@4.3.0)(typescript@5.2.2)
+        version: 6.1.0(rollup@4.3.0)(typescript@5.3.3)
       rollup-plugin-esbuild:
         specifier: ^6.1.0
         version: 6.1.0(esbuild@0.19.5)(rollup@4.3.0)
@@ -50,10 +50,10 @@ importers:
     dependencies:
       vitepress:
         specifier: 1.0.0-rc.26
-        version: 1.0.0-rc.26(@algolia/client-search@4.19.1)(search-insights@2.9.0)(typescript@5.2.2)
+        version: 1.0.0-rc.26(@algolia/client-search@4.19.1)(search-insights@2.9.0)(typescript@5.3.3)
       vue:
         specifier: ^3.3.8
-        version: 3.3.8(typescript@5.2.2)
+        version: 3.3.8(typescript@5.3.3)
 
   example:
     dependencies:
@@ -894,7 +894,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 5.0.0
-      vue: 3.3.8(typescript@5.2.2)
+      vue: 3.3.8(typescript@5.3.3)
     dev: false
 
   /@vue/compiler-core@3.3.8:
@@ -977,7 +977,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.3.8
       '@vue/shared': 3.3.8
-      vue: 3.3.8(typescript@5.2.2)
+      vue: 3.3.8(typescript@5.3.3)
     dev: false
 
   /@vue/shared@3.3.8:
@@ -2051,7 +2051,7 @@ packages:
       glob: 10.3.10
     dev: true
 
-  /rollup-plugin-dts@6.1.0(rollup@4.3.0)(typescript@5.2.2):
+  /rollup-plugin-dts@6.1.0(rollup@4.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-ijSCPICkRMDKDLBK9torss07+8dl9UpY9z1N/zTeA1cIqdzMlpkV3MOOC7zukyvQfDyxa1s3Dl2+DeiP/G6DOw==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -2060,7 +2060,7 @@ packages:
     dependencies:
       magic-string: 0.30.5
       rollup: 4.3.0
-      typescript: 5.2.2
+      typescript: 5.3.3
     optionalDependencies:
       '@babel/code-frame': 7.22.13
     dev: true
@@ -2360,8 +2360,8 @@ packages:
       is-typed-array: 1.1.12
     dev: true
 
-  /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2451,7 +2451,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vitepress@1.0.0-rc.26(@algolia/client-search@4.19.1)(search-insights@2.9.0)(typescript@5.2.2):
+  /vitepress@1.0.0-rc.26(@algolia/client-search@4.19.1)(search-insights@2.9.0)(typescript@5.3.3):
     resolution: {integrity: sha512-bAeph87NheD7bM/+E1AsJx8N6bGnP+5k0gZmtXbSgKAzNSFZBgAPcl7CoWzETST5pPpH/ZGRPhWSefcBX9Yfjg==}
     hasBin: true
     peerDependencies:
@@ -2475,7 +2475,7 @@ packages:
       minisearch: 6.2.0
       shiki: 0.14.5
       vite: 5.0.0
-      vue: 3.3.8(typescript@5.2.2)
+      vue: 3.3.8(typescript@5.3.3)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/node'
@@ -2524,10 +2524,10 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: 3.3.8(typescript@5.2.2)
+      vue: 3.3.8(typescript@5.3.3)
     dev: false
 
-  /vue@3.3.8(typescript@5.2.2):
+  /vue@3.3.8(typescript@5.3.3):
     resolution: {integrity: sha512-5VSX/3DabBikOXMsxzlW8JyfeLKlG9mzqnWgLQLty88vdZL7ZJgrdgBOmrArwxiLtmS+lNNpPcBYqrhE6TQW5w==}
     peerDependencies:
       typescript: '*'
@@ -2540,7 +2540,7 @@ packages:
       '@vue/runtime-dom': 3.3.8
       '@vue/server-renderer': 3.3.8(vue@3.3.8)
       '@vue/shared': 3.3.8
-      typescript: 5.2.2
+      typescript: 5.3.3
     dev: false
 
   /which-boxed-primitive@1.0.2:
